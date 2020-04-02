@@ -4,6 +4,7 @@ nav {
     color: #80ffff;
     font-family: 'Black And White Picture', sans-serif;
     margin-bottom: 5%;
+    font-size: 40px;
 }
 nav img{
     color: #80ffff;
@@ -19,19 +20,16 @@ footer{
     font-family: 'Black And White Picture', sans-serif;
     color: #fff;
     font-weight: 280;
-    font-size: 20px;
+    font-size: 25px;
 }
 .l{
     color: blue;
+    font-size: 30px;
 }
 nav img{
     font-family: 'Black And White Picture', sans-serif;
 }
-body{
-    background-image: url('https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 @media only screen and (max:width= 450px){
     #con-1{
         width: 100%;

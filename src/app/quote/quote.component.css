@@ -13,3 +13,11 @@ footer{
     font-size: 20px;
     font-family: 'Yesteryear', cursive;
 }
+#con-1{
+    background-color:rgba(26, 27, 26, 0.685);
+    margin-top: 5%;
+    font-family: 'Black And White Picture', sans-serif;
+    color: #fff;
+    font-weight: 280;
+    font-size: 20px;
+}

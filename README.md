@@ -1,6 +1,6 @@
 # Quotes
 
-This project was generated with [Angular CLI] version 9.1.0.
+This project was generated with [Angular CLI] (https://github.com/angular/angular-cli)  version 9.1.0.
 
 This is an application that is supposed to allow a user to input quotes, upvote, downvote or delete them.
 #### Author

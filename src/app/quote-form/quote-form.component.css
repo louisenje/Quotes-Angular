@@ -9,18 +9,18 @@
     
     font-family: 'Black And White Picture', sans-serif;
 }
+
+
 .img{
-    float: right;
-}
-.img1{
-    float: left;
+    padding-left: 4%;
+    padding-right: 8%;
 }
 
 input{
     left: 50%;
 }
 .jumbotron{
-    color: cornflowerblue;
+    color:#80ffff;
 }
 @media only screen and (max:width= 450px){
     #form{

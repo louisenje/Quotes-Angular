@@ -15,8 +15,8 @@ export class QuoteComponent implements OnInit {
 
   title = 'Quotes';
   quotes =[
-    new Quote(1, 'Worrying does not take away tomorrows problems,it takes away todays peace','Omonge Junior', 'A wise man',new Date(2019, 12,14),0,0),
-   
+    new Quote(1, 'Worrying does not take away tomorrows problems,it takes away todays peace','loui ', 'A wise man',new Date(2019, 12,14),0,0),
+    new Quote(2, ' Do or do not. There is no try','bby yoda', 'Yoda',new Date(2019, 12,14),0,0),
   ]
 
   addNewQuote(quote:any){

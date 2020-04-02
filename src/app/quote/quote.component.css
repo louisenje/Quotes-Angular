@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Black+And+White+Picture|Yesteryear&display=swap");
+nav {
+    color:#99ffdd;
+    font-family: 'Black And White Picture', sans-serif;
+    margin-bottom: 5%;
+}
+nav img{
+    color:#80ffd4;
+}
+footer{
+    color:#80ffd4;
+    font-size: 20px;
+    font-family: 'Yesteryear', cursive;
+}

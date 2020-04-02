@@ -1,1 +1,45 @@
-<p>quote works!</p>
+<body>
+    <div class =container>
+      <nav class="navbar navbar-light justify-content-between text-center">
+        <div class="text-center main-1"><h1>   {{ title }} App</h1></div>
+    </nav>
+    <app-quote-form (addQuote) = "addNewQuote($event)"></app-quote-form>
+    <div *ngFor = "let quote of quotes; let i = index">
+      <div id="con-1">
+        <div  id="{{i}}" >
+            <p  class="top">{{quote.description}}</p>  
+            <p>Posted  {{ quote.completeDate |dateCount }} days ago</p> 
+            <a id="like" (click)="like(i)">
+        <span class="glyphicon glyphicon-thumbs-up"></span>
+      </a>
+      {{quote.upvote}}
+  
+  <a id="unlike" (click)="unlike(i)">
+      <span class="glyphicon glyphicon-thumbs-down"></span>
+    </a>
+    {{quote.downvote}}
+  <br>
+  <div id="del">
+  <a id="delete" (click)="deleteQuote(true)">
+      <span class="glyphicon glyphicon-trash"></span>
+    </a>
+  </div>
+  
+        </div>
+       <br>
+       <div class="button">
+         <button class="btn btn-success" (click)="toggleDetails(i)"><i
+          class="	fa fa-plus-square"></i> </button>
+       </div>
+       <div *ngIf = "quote.showDescription">
+         <app-quote-details [quote] = "quote" (isComplete) = "deleteQuote($event, i)"></app-quote-details>
+       </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-copyright text-center py-3"> <h4>Copyright © 2020:</h4>
+       <p>Louise Manyara</p>
+      </div>
+  </footer>
+  </div>
+  </body>

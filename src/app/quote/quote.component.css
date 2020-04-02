@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture&display=swap');
-@import url("https://fonts.googleapis.com/css?family=Black+And+White+Picture|Yesteryear&display=swap");
+
 nav {
     color:#99ffdd;
     font-family: 'Black And White Picture', sans-serif;
     margin-bottom: 5%;
+    
 }
+h1{
+    text-align: center;
+    font-size: 70px;
+    
+}
+
 nav img{
     color:#80ffd4;
 }
@@ -13,11 +19,31 @@ footer{
     font-size: 20px;
     font-family: 'Yesteryear', cursive;
 }
-#con-1{
-    background-color:rgba(26, 27, 26, 0.685);
+#con{
+    background-color:#80ffd4;
     margin-top: 5%;
     font-family: 'Black And White Picture', sans-serif;
-    color: #fff;
+    color:blue;
     font-weight: 280;
-    font-size: 20px;
+    font-size: 30px;
+}
+nav img{
+    font-family: 'Black And White Picture', sans-serif;
+}
+.l{
+    color:#00264d;
+}
+
+@media only screen and (max:width= 450px){
+    #con-1{
+        width: 100%;
+    }
+}
+#like, #unlike, #delete{
+    padding: 5%;
+    color: white;
+}
+#del{
+    padding-top: 3%;
+    margin-left: 7%;
 }

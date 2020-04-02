@@ -1,39 +1,37 @@
-
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Black+And+White+Picture|Yesteryear&display=swap");
 nav {
-    color:#99ffdd;
+    color: #80ffff;
     font-family: 'Black And White Picture', sans-serif;
     margin-bottom: 5%;
-    
 }
-h1{
-    text-align: center;
-    font-size: 70px;
-    
-}
-
 nav img{
-    color:#80ffd4;
+    color: #80ffff;
 }
 footer{
-    color:#80ffd4;
-    font-size: 20px;
+    color: #80ffff;
+    font-size: 30px;
     font-family: 'Yesteryear', cursive;
 }
-#con{
-    background-color:#80ffd4;
+#con-1{
+    background-color:#80ffff;
     margin-top: 5%;
     font-family: 'Black And White Picture', sans-serif;
-    color:blue;
+    color: #fff;
     font-weight: 280;
-    font-size: 30px;
+    font-size: 20px;
+}
+.l{
+    color: blue;
 }
 nav img{
     font-family: 'Black And White Picture', sans-serif;
 }
-.l{
-    color:#00264d;
+body{
+    background-image: url('https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 @media only screen and (max:width= 450px){
     #con-1{
         width: 100%;
@@ -47,3 +45,5 @@ nav img{
     padding-top: 3%;
     margin-left: 7%;
 }
+
+

@@ -5,7 +5,7 @@
     </nav>
     <app-quote-form (addQuote) = "addNewQuote($event)"></app-quote-form>
     <div *ngFor = "let quote of quotes; let i = index">
-      <div id="con">
+      <div id="con-1">
         <div  id="{{i}}" >
             <p  class="top" class="l">{{quote.description}}</p>  
             <p>Posted  {{ quote.completeDate |dateCount }} days ago</p> 

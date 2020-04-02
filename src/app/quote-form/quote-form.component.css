@@ -12,6 +12,9 @@
 .img{
     float: right;
 }
+.img1{
+    float: left;
+}
 
 input{
     left: 50%;

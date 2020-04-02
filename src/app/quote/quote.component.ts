@@ -38,7 +38,7 @@ export class QuoteComponent implements OnInit {
   }
   like(index){
     this.quotes[index].upvote +=1;
-    // console.log(1);
+    //console.log(1);
   }
   unlike (index){
     this.quotes[index].downvote +=1;
